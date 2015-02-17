@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "hello",
+  "description": "show!",
+  "version": "0.1",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "show"
+  },
+  "permissions": ["activeTab", "https://ajax.googleapis.com/"]
+}
